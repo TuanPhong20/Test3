@@ -27,6 +27,9 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
   deploy:
+    permissions:
+      id-token: write
+      pages: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
