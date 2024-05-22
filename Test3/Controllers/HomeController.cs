@@ -15,7 +15,7 @@ namespace Test3.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Vi   ew();
         }
 
         public IActionResult Privacy()
