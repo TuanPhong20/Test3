@@ -6,11 +6,18 @@ Test Case Xác thực người dùng
 | ID_03 | Đặt tour | Khách hàng | Đã đăng nhập | 1. Chọn tour<br>2. Nhập thông tin đặt tour<br>3. Xác nhận đặt tour | - Số người lớn: 2<br>- Số trẻ em: 1<br>- Ngày đi: 2024-03-20 | - Đặt tour thành công<br>- Hiển thị thông tin đặt tour<br>- Gửi email xác nhận |
 | ID_04 | Quản lý tour | Admin | Đăng nhập với quyền admin | 1. Vào trang quản lý<br>2. Thêm tour mới<br>3. Nhập thông tin tour | - Tên tour: Tour Đà Lạt<br>- Giá: 2,000,000<br>- Số lượng: 20<br>- Hình ảnh: 3 ảnh | - Tour được thêm thành công<br>- Hiển thị trong danh sách<br>- Upload ảnh thành công |
 | ID_05 | Thanh toán | Khách hàng | Đã đặt tour | 1. Chọn phương thức<br>2. Nhập thông tin<br>3. Xác nhận thanh toán | - Số tiền: 5,000,000<br>- Phương thức: VNPAY<br>- Thông tin thẻ | - Thanh toán thành công<br>- Cập nhật trạng thái đơn<br>- Gửi email xác nhận |
+
+
+
 Test Case Quản lý Tour
 | ID Test Case | Chức năng | Vai trò | Tiền điều kiện | Bước thực hiện | Dữ liệu đầu vào | Kết quả mong đợi |
 |-------------|-----------|----------|----------------|----------------|-----------------|------------------|
 | ID_06 | Thêm tour | Admin | Đăng nhập admin | 1. Vào mục Quản lý tour<br>2. Click "Thêm mới"<br>3. Nhập thông tin<br>4. Upload ảnh<br>5. Lưu | - Tên: Tour Hạ Long<br>- Giá: 3,000,000<br>- Lịch trình: 3N2Đ<br>- Ảnh: 4 ảnh | - Tour mới được tạo<br>- Ảnh được lưu trữ<br>- Hiển thị trong list |
 | ID_07 | Sửa tour | Admin | Tour đã tồn tại | 1. Chọn tour cần sửa<br>2. Cập nhật thông tin<br>3. Lưu thay đổi | - Giá mới: 3,500,000<br>- Thêm ảnh mới<br>- Cập nhật mô tả | - Thông tin được cập nhật<br>- Hiển thị thông báo<br>- Refresh danh sách |
+
+
+
+
 Test Case Quản lý Đặt Tour
 | ID Test Case | Chức năng | Vai trò | Tiền điều kiện | Bước thực hiện | Dữ liệu đầu vào | Kết quả mong đợi |
 |-------------|-----------|----------|----------------|----------------|-----------------|------------------|
